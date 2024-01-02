@@ -4,7 +4,7 @@
 ***
 #### 流程步驟
 1. 一開始透過Camera讀入影像後，對影像做預處理，透過cv2.Canny()產生邊緣偵測的影像<br/>
-<img src="https://github.com/gnuhlil/Project/assets/79434458/e0270f95-b796-4e4e-b655-934ea199433b" alt="First Image" width="400"/> <img src="https://github.com/gnuhlil/Project/assets/79434458/fb0d3582-a503-4254-9a76-f6587dcf025d" alt="Second Image" width="400"/>
+<img src="https://github.com/gnuhlil/Project/assets/79434458/e0270f95-b796-4e4e-b655-934ea199433b" alt="First Image" width="320"/> <img src="https://github.com/gnuhlil/Project/assets/79434458/fb0d3582-a503-4254-9a76-f6587dcf025d" alt="Second Image" width="320"/>
 2. 用設定座標的方式來圈選出鐵軌所在的區域為ROI (Region of Interest)，讓結果能更加明確，也能節省處理不必要區域的時間<br/>
 <img src="https://github.com/gnuhlil/Project/assets/79434458/fb0d3582-a503-4254-9a76-f6587dcf025d" alt="First Image" width="435"/> <img src="https://github.com/gnuhlil/Project/assets/79434458/d7def93c-8abe-44ad-b359-ed845a9d2fd2" alt="Second Image" width="435"/>
 3. 透過cv2.HoughLinesP在ROI中實作line detection，標示出鐵軌位置<br/>
