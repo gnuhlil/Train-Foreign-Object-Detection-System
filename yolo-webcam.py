@@ -14,7 +14,7 @@ net = cv2.dnn.readNet(
     r"C:\Users\ASUS\Desktop\project\yolo_cfg\yolov4-tiny.cfg",
 )
 classes = []
-with open(r"C:\Users\ASUS\Desktop\project\yolo-coco\coco.names", "r") as f:
+with open(r"C:\Users\ASUS\Desktop\project\yolo_coco\coco.names", "r") as f:
     classes = [line.strip() for line in f.readlines()]
 layer_names = net.getLayerNames()
 output_layers = [layer_names[i - 1] for i in net.getUnconnectedOutLayers()]
