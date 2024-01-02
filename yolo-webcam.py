@@ -20,7 +20,7 @@ layer_names = net.getLayerNames()
 output_layers = [layer_names[i - 1] for i in net.getUnconnectedOutLayers()]
 colors = np.random.uniform(0, 255, size=(len(classes), 3))
 
-flag = 1  # 1:依據鐵軌直線判斷異物是否入侵  2:依據ROI是否有東西判斷是否入侵
+flag = 2  # 1:依據鐵軌直線判斷異物是否入侵  2:依據ROI是否有東西判斷是否入侵
 
 # Initialize frame rate calculation
 frame_rate_calc = 1
@@ -28,7 +28,7 @@ freq = cv2.getTickFrequency()
 
 # cap = cv2.VideoCapture(0)
 videoFeed = cv2.VideoCapture(
-    r"C:\Users\ASUS\Desktop\project_2\videos\warningSystem_test.mp4"
+    r"C:\Users\ASUS\Desktop\project\videos\warningSystem_test.mp4"
 )
 if not videoFeed.isOpened():
     print("Cannot read video")
