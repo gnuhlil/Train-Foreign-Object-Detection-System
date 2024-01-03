@@ -1,5 +1,5 @@
 # 基於YOLO演算法之軌道異物偵測系統
-## 主要目標是實作一軌道異物偵測系統，來協助駕駛員盡早發現危險，避免可能發生的危害。 <br />
+### 主要目標是實作一軌道異物偵測系統，來協助駕駛員盡早發現危險，避免可能發生的危害。 <br />
 ***
 ## Standard Operating Procedures
 1. 一開始透過Camera讀入影像後，對影像做預處理，透過**cv2.Canny()** 產生邊緣偵測的影像。<br/>
@@ -26,9 +26,10 @@
 <img src="https://github.com/gnuhlil/Project/assets/79434458/56c3a351-0e56-41ae-9e3f-8dea3083b2b2" alt="flow chart"
 <p/><br/>
 
-## Features
+
+## 🌟 Features
 * YOLO其最大的特點是運算速度快，可以用於實時系統。
-  * 在實時物件偵測環境下，運算速度比起精準度更為重要，因此使用**yolov-fastest-1.1-xl**。
+  * 在實時物件偵測環境下，能同時兼顧精準度和運算速度的話更好，因此使用**yolov4-Tiny**。
     
     || COCO mAP(0.5) | FLOPs | Weight Size |
     | -------- | -------- | -------- | -------- |
@@ -36,9 +37,10 @@
     | yolo-fastest-1.1-xl  | 34.33%  | 0.725BFlops  | 3.7M  |
 
     Reference：<https://github.com/dog-qiuqiu/Yolo-Fastest>
-    
+
     
 * 因為火車Webcam架設的位置固定，可用設定座標的方式來圈選出鐵軌所在的區域，讓結果能更加明確，也能節省處理不必要區域的時間。
+
 
 ***
 ## 🔧 Training Tools
