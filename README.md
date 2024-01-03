@@ -14,7 +14,7 @@
 <img src="https://github.com/gnuhlil/Project/assets/79434458/e0270f95-b796-4e4e-b655-934ea199433b" alt="First Image" width="395"/> <img src="https://github.com/gnuhlil/Project/assets/79434458/fb0d3582-a503-4254-9a76-f6587dcf025d" alt="Second Image" width="395"/>
 
 
-2. 由於Webcam架設的位置固定，因此用設定座標的方式來圈選出鐵軌所在的區域為`ROI (Region of Interest)`。<br/>
+2. 由於Webcam架設的位置固定，因此需要根據讀入影像的鐵軌位置來設定`ROI (Region of Interest)`座標。<br/>
 <img src="https://github.com/gnuhlil/Project/assets/79434458/fb0d3582-a503-4254-9a76-f6587dcf025d" alt="First Image" width="395"/> <img src="https://github.com/gnuhlil/Project/assets/79434458/d7def93c-8abe-44ad-b359-ed845a9d2fd2" alt="Second Image" width="395"/>
 
 
