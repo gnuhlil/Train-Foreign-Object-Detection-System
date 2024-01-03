@@ -1,8 +1,7 @@
 # 基於YOLO演算法之軌道異物偵測系統
 ### 主要目標是實作一軌道異物偵測系統，來協助駕駛員盡早發現危險，避免可能發生的危害。 <br />
-
 ***
-### 流程步驟
+### Standard Operating Procedures
 1. 一開始透過Camera讀入影像後，對影像做預處理，透過**cv2.Canny()** 產生邊緣偵測的影像。<br/>
 <img src="https://github.com/gnuhlil/Project/assets/79434458/e0270f95-b796-4e4e-b655-934ea199433b" alt="First Image" width="395"/> <img src="https://github.com/gnuhlil/Project/assets/79434458/fb0d3582-a503-4254-9a76-f6587dcf025d" alt="Second Image" width="395"/>
 
@@ -27,6 +26,7 @@
 <img src="https://github.com/gnuhlil/Project/assets/79434458/56c3a351-0e56-41ae-9e3f-8dea3083b2b2" alt="flow chart"
 <p/><br/>
 
+深度神經網路(DNN)
 
 ***
 ### 🔧 Training Tools
