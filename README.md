@@ -34,7 +34,7 @@
 <img src="https://github.com/gnuhlil/Project/assets/79434458/56c3a351-0e56-41ae-9e3f-8dea3083b2b2" alt="flow chart"
 <p/><br/>
 
-
+<a name="features"></a>
 ## 🌟 Features
 * YOLO其最大的特點是運算速度快，可以用於實時系統。
   * 在實時物件偵測環境下，能同時兼顧精準度和運算速度的話更好，而我使用的是`yolov4-Tiny`。
@@ -51,6 +51,7 @@
 
 
 ***
+<a name="training-tools"></a>
 ## 🔧 Training Tools
 * **OpenCV DNN Model**
 * **MS COCO(Common Objects in Context) dataset**
