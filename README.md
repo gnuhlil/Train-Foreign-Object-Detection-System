@@ -1,5 +1,5 @@
 # 基於YOLO演算法之軌道異物偵測系統
-### 主要目標是實作一軌道異物偵測系統，來協助駕駛員盡早發現危險狀況，避免可能發生的危害。 <br />
+### 主要目標是實作一軌道異物偵測系統，來協助駕駛員盡早發現危險，避免可能發生的危害。 <br />
 
 ***
 ### 流程步驟
@@ -29,7 +29,7 @@
 
 
 ***
-### 🔧 Training tools
+### 🔧 Training Tools
 * **MS COCO(Common Objects in Context) dataset**
 * **Yolov4-Tiny.cfg**、**Yolov4-Tiny.weight**
 * **Railway Track Videos**
