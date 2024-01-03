@@ -13,20 +13,22 @@ net = cv2.dnn.readNet(
     r"C:\Users\ASUS\Desktop\project\yolo_weight\yolov4-tiny.weights",
     r"C:\Users\ASUS\Desktop\project\yolo_cfg\yolov4-tiny.cfg",
 )
+
+# Load MS COCO elements
 classes = []
 with open(r"C:\Users\ASUS\Desktop\project\yolo_coco\coco.names", "r") as f:
     classes = [line.strip() for line in f.readlines()]
+
+# Get Input Layer
 layer_names = net.getLayerNames()
 output_layers = [layer_names[i - 1] for i in net.getUnconnectedOutLayers()]
-# colors = np.random.uniform(0, 255, size=(len(classes), 3))
-
 flag = 2  # 1:依據鐵軌直線判斷異物是否入侵  2:依據ROI是否有東西判斷是否入侵
 
 # Initialize frame rate calculation
 frame_rate_calc = 1
 freq = cv2.getTickFrequency()
 
-# cap = cv2.VideoCapture(0)
+# videoFeed = cv2.VideoCapture(0)
 videoFeed = cv2.VideoCapture(
     r"C:\Users\ASUS\Desktop\project\videos\warningSystem_test.mp4"
 )
@@ -57,10 +59,12 @@ while videoFeed.isOpened():
             roi_image, 0.00392, (416, 416), (0, 0, 0), True, crop=False
         )
 
+    # 將處理過的blob帶入到net model中, net.forward()能取得跑完model的結果
     net.setInput(blob)
     outs = net.forward(output_layers)
 
-    # Showing informations on the screen
+    # print(outs)
+    # Identify and label
     class_ids = []
     confidences = []
     boxes = []
@@ -79,13 +83,11 @@ while videoFeed.isOpened():
                 # Rectangle coordinates
                 x = int(center_x - w / 2)
                 y = int(center_y - h / 2)
-
                 boxes.append([x, y, w, h])
                 confidences.append(float(confidence))
                 class_ids.append(class_id)
 
     indexes = cv2.dnn.NMSBoxes(boxes, confidences, 0.5, 0.4)
-
     font = cv2.FONT_HERSHEY_SIMPLEX
     if len(indexes) != 0:
         for i in range(len(boxes)):
