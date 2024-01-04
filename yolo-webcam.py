@@ -63,7 +63,6 @@ while videoFeed.isOpened():
     net.setInput(blob)
     outs = net.forward(output_layers)
 
-    # print(outs)
     # Identify and label
     class_ids = []
     confidences = []
