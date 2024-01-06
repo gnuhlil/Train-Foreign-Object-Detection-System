@@ -5,6 +5,7 @@
 * [Hardwares](#hardwares)
 * [Standard Operating Procedures](#standard-operating-procedures)
 * [Flow chart](#flow-chart)
+* [Experiment](#experiment)
 * [Features](#features)
 * [Training Tools](#training-tools)
 * [Contact](#contact)
@@ -66,7 +67,11 @@
 <p/><br/>
 
 
-## Experiment Result
+***
+## Experiment
+<img src="https://github.com/gnuhlil/Train-Foreign-Object-Detection-System/assets/79434458/aad6d1c5-bcf3-475f-b2fc-081fcb56bb14" alt="image" width="395" height="240" />
+<img src="https://github.com/gnuhlil/Train-Foreign-Object-Detection-System/assets/79434458/c276d234-cf66-4f2a-8193-fd9b9bca6ddd" alt="image" width="395" height="240" />
+
 
 ***
 ## Features
