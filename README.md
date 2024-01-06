@@ -22,7 +22,7 @@
         <li>RAM：4GB(LPDDR4-2400)</li>
         <li>other：Micro HDMI、H.265 (4kp60 decode)</li>
       </ul>
-      <img src= "https://github.com/gnuhlil/Train-Foreign-Object-Detection-System/assets/79434458/7742fc28-20a0-4b8c-837c-3708663b5182" alt = "raspberry pi 4B"  width="395" height="240" />
+      <img src="https://github.com/gnuhlil/Train-Foreign-Object-Detection-System/assets/79434458/7742fc28-20a0-4b8c-837c-3708663b5182" alt="raspberry pi 4B"  width="395" height="240" />
     </td>
     <td>
       <h4> Raspberry Pi High Quality Camera </h4>
@@ -31,8 +31,8 @@
         <li>12.3 megapixels</li>
         <li>7.9mm diagonal image size</li>
         <li>1.55 μm × 1.55 μm pixel size</li>
-      <ul>
-      <img src="https://github.com/gnuhlil/Train-Foreign-Object-Detection-System/assets/79434458/ed983721-a056-4aff-96c5-efa4d0617d60" alt="Camera" width="395" height="256" />
+      </ul>
+      <img src="https://github.com/gnuhlil/Train-Foreign-Object-Detection-System/assets/79434458/ed983721-a056-4aff-96c5-efa4d0617d60" alt="Camera" width="395" height="240" />
     </td>
   </tr>
 </table>
@@ -59,12 +59,16 @@
 <img src="https://github.com/gnuhlil/Project/assets/79434458/cf1bbdb4-2809-4ea7-ab2c-d6855d652ec3" alt="First Image" width="395"/> <img src="https://github.com/gnuhlil/Project/assets/79434458/db3c583f-d022-491c-9f05-78699adb69ad" alt="Second Image" width="395"/>
 
 
+***
 ## Flow chart
 <p align = "center">
 <img src="https://github.com/gnuhlil/Project/assets/79434458/56c3a351-0e56-41ae-9e3f-8dea3083b2b2" alt="flow chart"
 <p/><br/>
 
 
+## Experiment Result
+
+***
 ## Features
 * YOLO其最大的特點是運算速度快，可以用於實時系統。
   * 在實時物件偵測環境下，能同時兼顧精準度和運算速度的話更好，而我使用的是`yolov4-Tiny`。
@@ -79,6 +83,7 @@
     
 * 因為火車Webcam架設的位置固定，可用設定座標的方式來圈選出鐵軌所在的區域，讓結果能更加明確，也能節省處理不必要區域的時間。
 * YOLO兩種偵測方式可以根據不同情境來選擇是否需要偵測鐵軌以外的異物。
+
 
 ***
 ## Training Tools
