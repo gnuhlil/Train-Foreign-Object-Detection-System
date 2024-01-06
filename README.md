@@ -14,7 +14,7 @@
 <table>
   <tr>
     <td>
-      <h4> Raspberry Pi 4B & Monitor</h4>
+      <h4> Raspberry Pi 4B </h4>
       <ul>
         <li>SoC：Broadcom BCM2711</li>
         <li>CPU：四核Cortex-A72（ARM v8）@ 1.5GHz</li>
@@ -31,7 +31,7 @@
         <li>7.9mm diagonal image size</li>
         <li>1.55 μm × 1.55 μm pixel size</li>
       <ul>
-      <img src="https://github.com/gnuhlil/Train-Foreign-Object-Detection-System/assets/79434458/ed983721-a056-4aff-96c5-efa4d0617d60" alt="Camera" width="395" height="240" />
+      <img src="https://github.com/gnuhlil/Train-Foreign-Object-Detection-System/assets/79434458/ed983721-a056-4aff-96c5-efa4d0617d60" alt="Camera" width="395" height="256" />
     </td>
   </tr>
 </table>
