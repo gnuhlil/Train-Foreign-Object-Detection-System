@@ -2,6 +2,7 @@
 ### 主要目標是實作一軌道異物偵測系統，來協助駕駛員盡早發現危險，避免可能發生的危害。 <br />
 ***
 ## Table of Contents
+* [Hardwares](#hardwars)
 * [Standard Operating Procedures](#standard-operating-procedures)
 * [Flow chart](#flow-chart)
 * [Features](#features)
@@ -10,7 +11,7 @@
 
 
 ***
-## Hardware
+## Hardwares
 <table>
   <tr>
     <td>
