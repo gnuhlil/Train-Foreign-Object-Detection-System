@@ -8,6 +8,30 @@
 * [Training Tools](#training-tools)
 * [Contact](#contact)
 
+
+***
+## Hardware
+<table>
+  <tr>
+    <td>
+      <h4> Raspberry Pi 4B </h4>
+      <ul>
+        <li>SoC：Broadcom BCM2711</li>
+        <li>CPU：四核Cortex-A72（ARM v8）@ 1.5GHz</li>
+        <li>RAM：4GB(LPDDR4-2400)</li>
+        <li>other：Micro HDMI、H.265 (4kp60 decode)</li>
+      </ul>
+  
+      ![image](https://github.com/gnuhlil/Train-Foreign-Object-Detection-System/assets/79434458/7742fc28-20a0-4b8c-837c-3708663b5182)
+    </td>
+    <td>
+      <!-- 這裡放置您的圖片 -->
+      ![圖片描述](圖片網址)
+    </td>
+  </tr>
+</table>
+
+
 ***
 ## Standard Operating Procedures
 1. 一開始透過`cv2.VideoCapture()`讀入影像後，對影像做預處理，透過`cv2.Canny()`產生邊緣偵測的影像。<br/>
