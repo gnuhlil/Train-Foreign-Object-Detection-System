@@ -3,8 +3,8 @@
 ***
 ## Table of Contents
 * [Hardwares](#hardwares)
-* [Standard Operating Procedures](#standard-operating-procedures)
 * [Flow chart](#flow-chart)
+* [Standard Operating Procedures](#standard-operating-procedures)
 * [Experiment](#experiment)
 * [Features](#features)
 * [Training Tools](#training-tools)
@@ -40,6 +40,13 @@
 
 
 ***
+## Flow chart
+<p align = "center">
+<img src="https://github.com/gnuhlil/Project/assets/79434458/56c3a351-0e56-41ae-9e3f-8dea3083b2b2" alt="flow chart"
+<p/><br/>
+
+
+***
 ## Standard Operating Procedures
 1. 一開始透過`cv2.VideoCapture()`讀入影像後，對影像做預處理，透過`cv2.Canny()`產生邊緣偵測的影像。<br/>
 <img src="https://github.com/gnuhlil/Project/assets/79434458/e0270f95-b796-4e4e-b655-934ea199433b" alt="First Image" width="395"/> <img src="https://github.com/gnuhlil/Project/assets/79434458/fb0d3582-a503-4254-9a76-f6587dcf025d" alt="Second Image" width="395"/>
@@ -58,13 +65,6 @@
 <img src="https://github.com/gnuhlil/Project/assets/79434458/cf1bbdb4-2809-4ea7-ab2c-d6855d652ec3" alt="First Image" width="395"/> <img src="https://github.com/gnuhlil/Project/assets/79434458/b1e70d38-0b46-4388-819e-e53cc86e3cb8" alt="Second Image" width="395"/>
 * **Option 2** <br />
 <img src="https://github.com/gnuhlil/Project/assets/79434458/cf1bbdb4-2809-4ea7-ab2c-d6855d652ec3" alt="First Image" width="395"/> <img src="https://github.com/gnuhlil/Project/assets/79434458/db3c583f-d022-491c-9f05-78699adb69ad" alt="Second Image" width="395"/>
-
-
-***
-## Flow chart
-<p align = "center">
-<img src="https://github.com/gnuhlil/Project/assets/79434458/56c3a351-0e56-41ae-9e3f-8dea3083b2b2" alt="flow chart"
-<p/><br/>
 
 
 ***
